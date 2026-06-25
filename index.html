@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocab — spaced repetition</title>
+<style>
+  :root{
+    --ink:#1a1714;
+    --paper:#f3ede2;
+    --paper-2:#ece3d4;
+    --line:#d8ccb6;
+    --accent:#3a5a40;        /* deep moss */
+    --accent-soft:#e4ebdf;
+    --again:#a4442f;         /* terracotta-red */
+    --hard:#b07320;          /* ochre */
+    --good:#3a5a40;          /* moss */
+    --easy:#2f6f7a;          /* teal */
+    --muted:#7c7264;
+    --shadow:0 1px 0 #fff8 inset, 0 14px 30px -18px #4a3f2e88;
+    --serif:'Iowan Old Style','Palatino Linotype','Palatino',Georgia,serif;
+    --sans:ui-sans-serif,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%}
+  body{
+    background:
+      radial-gradient(1200px 600px at 80% -10%, #fbf7ee 0%, transparent 60%),
+      var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    -webkit-font-smoothing:antialiased;
+    display:flex;flex-direction:column;min-height:100%;
+  }
+  @media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+
+  header{
+    display:flex;align-items:baseline;justify-content:space-between;gap:1rem;
+    padding:1.4rem clamp(1rem,4vw,2.4rem) .9rem;
+    border-bottom:1px solid var(--line);
+  }
+  .brand{display:flex;align-items:baseline;gap:.6rem}
+  .brand h1{
+    font-family:var(--serif);font-weight:600;font-size:1.5rem;letter-spacing:.01em;margin:0;
+  }
+  .brand .dot{color:var(--accent);font-size:1.5rem;line-height:1}
+  .brand .sub{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+  .tools{display:flex;gap:.5rem;flex-wrap:wrap}
+  .tools button{
+    font-family:var(--sans);font-size:.74rem;letter-spacing:.04em;
+    background:transparent;border:1px solid var(--line);color:var(--ink);
+    padding:.45rem .7rem;border-radius:.5rem;cursor:pointer;transition:.15s;
+  }
+  .tools button:hover{background:var(--paper-2);border-color:var(--muted)}
+  .tools button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  .stats{
+    display:flex;gap:1.4rem;justify-content:center;
+    padding:1rem;font-size:.78rem;color:var(--muted);
+    border-bottom:1px solid var(--line);flex-wrap:wrap;
+  }
+  .stats b{font-family:var(--serif);font-size:1.05rem;color:var(--ink);font-weight:600}
+  .stats .s-new b{color:var(--easy)}
+  .stats .s-due b{color:var(--again)}
+  .stats .s-done b{color:var(--good)}
+
+  main{flex:1;display:flex;align-items:center;justify-content:center;padding:clamp(1rem,5vw,3rem)}
+
+  .stage{width:min(620px,100%)}
+
+  .card{
+    background:linear-gradient(#fffdf8,#f7f1e6);
+    border:1px solid var(--line);border-radius:1.1rem;
+    box-shadow:var(--shadow);
+    min-height:340px;padding:clamp(1.5rem,5vw,2.6rem);
+    display:flex;flex-direction:column;
+    position:relative;overflow:hidden;
+  }
+  .card::before{
+    content:"";position:absolute;left:0;top:0;bottom:0;width:4px;
+    background:linear-gradient(var(--accent),#6b8f71);
+  }
+  .eyebrow{
+    font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:1.1rem;
+  }
+  .word{
+    font-family:var(--serif);font-weight:600;
+    font-size:clamp(2.1rem,7vw,3.1rem);line-height:1.05;margin:0;letter-spacing:-.01em;
+  }
+  .pos{font-family:var(--serif);font-style:italic;font-size:1.05rem;color:var(--muted);margin-top:.35rem}
+
+  .reveal{margin-top:1.4rem;border-top:1px solid var(--line);padding-top:1.3rem;display:none;animation:rise .28s ease}
+  .reveal.show{display:block}
+  @keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+  .field{margin-bottom:1.05rem}
+  .field .k{font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:.28rem}
+  .bengali{font-size:1.5rem;line-height:1.4}
+  .def{font-size:1rem;line-height:1.55}
+  .ex{font-family:var(--serif);font-style:italic;font-size:1.05rem;line-height:1.5;color:#403a31}
+
+  .controls{margin-top:1.5rem}
+  .show-btn{
+    width:100%;font-family:var(--sans);font-size:.95rem;letter-spacing:.02em;
+    background:var(--ink);color:var(--paper);border:none;
+    padding:.95rem;border-radius:.7rem;cursor:pointer;transition:.15s;
+  }
+  .show-btn:hover{background:#33291f}
+  .show-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+  .grades{display:grid;grid-template-columns:repeat(4,1fr);gap:.55rem}
+  .grades button{
+    font-family:var(--sans);border:1px solid var(--line);border-radius:.7rem;
+    padding:.8rem .4rem;cursor:pointer;background:#fffdf8;transition:.15s;
+    display:flex;flex-direction:column;gap:.18rem;align-items:center;
+  }
+  .grades button:hover{transform:translateY(-2px)}
+  .grades button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .grades .lbl{font-size:.86rem;font-weight:600}
+  .grades .nxt{font-size:.66rem;color:var(--muted)}
+  .g-again .lbl{color:var(--again)} .g-again{border-color:#e3c4ba}
+  .g-hard  .lbl{color:var(--hard)}  .g-hard{border-color:#e6d2ad}
+  .g-good  .lbl{color:var(--good)}  .g-good{border-color:#c7d6c4}
+  .g-easy  .lbl{color:var(--easy)}  .g-easy{border-color:#bcd6da}
+
+  /* Narrow phones: 2x2 grid with bigger tap targets so buttons stay easy to hit */
+  @media (max-width:430px){
+    .grades{grid-template-columns:repeat(2,1fr);gap:.6rem}
+    .grades button{padding:1rem .5rem;min-height:56px}
+    .grades .lbl{font-size:.95rem}
+    .grades .nxt{font-size:.72rem}
+  }
+
+  .hint{text-align:center;font-size:.72rem;color:var(--muted);margin-top:1rem}
+  kbd{font-family:var(--sans);background:var(--paper-2);border:1px solid var(--line);border-bottom-width:2px;border-radius:.3rem;padding:.05rem .35rem;font-size:.72rem}
+
+  .empty{text-align:center;padding:2rem}
+  .empty h2{font-family:var(--serif);font-weight:600;font-size:1.8rem;margin:.2rem 0 .6rem}
+  .empty p{color:var(--muted);line-height:1.6;max-width:42ch;margin:.4rem auto}
+
+  footer{text-align:center;font-size:.7rem;color:var(--muted);padding:1rem;border-top:1px solid var(--line)}
+  input[type=file]{display:none}
+  .toast{
+    position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);
+    background:var(--ink);color:var(--paper);padding:.7rem 1.1rem;border-radius:.6rem;
+    font-size:.82rem;box-shadow:0 10px 30px -10px #0007;opacity:0;pointer-events:none;transition:.25s;
+  }
+  .toast.show{opacity:1}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="dot">◆</span>
+    <h1>Vocab</h1>
+    <span class="sub">spaced&nbsp;repetition</span>
+  </div>
+  <div class="tools">
+    <button id="exportBtn" title="Download your progress as a backup file">Export backup</button>
+    <button id="importBtn" title="Restore progress from a backup file">Import backup</button>
+    <button id="resetBtn" title="Erase all progress">Reset progress</button>
+    <input type="file" id="fileInput" accept="application/json">
+  </div>
+</header>
+
+<div class="stats">
+  <span class="s-new">New today <b id="stNew">0</b></span>
+  <span class="s-due">Due <b id="stDue">0</b></span>
+  <span class="s-done">Reviewed today <b id="stDone">0</b></span>
+  <span class="s-total">In deck <b id="stTotal">0</b></span>
+</div>
+
+<main>
+  <div class="stage">
+    <div id="cardHost"></div>
+  </div>
+</main>
+
+<footer>Progress is saved in this browser only. Use <strong>Export backup</strong> to keep a copy or move it to another device.</footer>
+<div class="toast" id="toast"></div>
+
+<script src="deck.js"></script>
+<script>
+/* ============================================================
+   DATA
+   The deck lives in window.DECK as an array of:
+   { id, word, pos, bengali, definition, example }
+   It is loaded from deck.js (loaded before this script in <head>/above).
+   If deck.js is missing, fall back to an empty deck.
+   ============================================================ */
+window.DECK = window.DECK || [];
+
+/* ============================================================
+   STORAGE  (localStorage) — keyed per card id
+   schema per card: { rep, ease, interval, due, lastSeen }
+   plus a daily log for "new/reviewed today".
+   ============================================================ */
+const LS_KEY = "vocab_srs_v1";
+const DAY = 86400000;
+const MIN = 60000;
+const RELEARN_MS = 15 * MIN;   // "Relearn" pushes a card 15 minutes out
+const todayStr = () => new Date().toISOString().slice(0,10);
+
+function loadState(){
+  try{ return JSON.parse(localStorage.getItem(LS_KEY)) || base(); }
+  catch{ return base(); }
+}
+function base(){ return { cards:{}, daily:{date:todayStr(), newCount:0, doneCount:0} }; }
+function saveState(s){ localStorage.setItem(LS_KEY, JSON.stringify(s)); }
+
+let state = loadState();
+function rollDay(){
+  if(state.daily.date !== todayStr()){
+    state.daily = {date:todayStr(), newCount:0, doneCount:0};
+    saveState(state);
+  }
+}
+
+/* ============================================================
+   SM-2 (simplified). Grades: 0 again, 1 hard, 2 good, 3 easy.
+   Returns updated card scheduling.
+   ============================================================ */
+function schedule(c, grade){
+  c = c || { rep:0, ease:2.5, interval:0, due:0 };
+  if(grade === 0){                       // Relearn — show again in 15 min
+    c.rep = 0; c.interval = 0;
+    c.ease = Math.max(1.3, c.ease - 0.2);
+    c.due = Date.now() + RELEARN_MS;     // <-- 15-minute relearn
+    c.lastSeen = Date.now();
+    return c;
+  } else {
+    if(c.rep === 0) c.interval = grade === 1 ? 1 : grade === 2 ? 1 : 3;
+    else if(c.rep === 1) c.interval = grade === 1 ? 3 : 6;
+    else c.interval = Math.round(c.interval * c.ease * (grade===1?0.8:grade===3?1.3:1));
+    c.rep += 1;
+    c.ease = Math.min(3.0, Math.max(1.3, c.ease + (grade===1?-0.15:grade===3?0.15:0)));
+  }
+  c.due = Date.now() + c.interval * DAY;
+  c.lastSeen = Date.now();
+  return c;
+}
+function previewInterval(c, grade){
+  const t = schedule(JSON.parse(JSON.stringify(c || {rep:0,ease:2.5,interval:0,due:0})), grade);
+  if(grade===0) return "15 min";
+  return t.interval <= 1 ? "1 day" : t.interval+" days";
+}
+
+/* ============================================================
+   QUEUE: due cards first, then unseen ("new"), capped lightly.
+   ============================================================ */
+function buildQueue(){
+  const now = Date.now();
+  const due = [], fresh = [];
+  for(const card of window.DECK){
+    const c = state.cards[card.id];
+    if(!c) fresh.push(card);
+    else if(c.due <= now) due.push(card);
+  }
+  due.sort((a,b)=> state.cards[a.id].due - state.cards[b.id].due);
+  return {due, fresh};
+}
+
+function counts(){
+  const now=Date.now(); let due=0, total=window.DECK.length;
+  for(const card of window.DECK){
+    const c=state.cards[card.id];
+    if(c && c.due<=now) due++;
+  }
+  return {due, total};
+}
+
+function pickNext(){
+  const {due, fresh} = buildQueue();
+  if(due.length) return due[0];
+  if(fresh.length) return fresh[0];
+  return null;
+}
+
+/* Earliest future due time among scheduled cards (for mid-session auto-pop).
+   Returns ms timestamp, or null if nothing is pending in the future. */
+function nextDueTime(){
+  const now = Date.now();
+  let soonest = null;
+  for(const card of window.DECK){
+    const c = state.cards[card.id];
+    if(c && c.due > now){
+      if(soonest === null || c.due < soonest) soonest = c.due;
+    }
+  }
+  return soonest;
+}
+
+/* ============================================================
+   RENDER
+   ============================================================ */
+const host = document.getElementById('cardHost');
+let current = null, revealed = false;
+let popTimer = null;
+
+/* Re-render automatically when the soonest future-due card comes due,
+   so 15-min relearn cards pop back into the session on their own. */
+function scheduleAutoPop(){
+  if(popTimer){ clearTimeout(popTimer); popTimer = null; }
+  const t = nextDueTime();
+  if(t === null) return;
+  let wait = t - Date.now();
+  if(wait < 0) wait = 0;
+  // setTimeout caps near ~24.8 days; our waits are tiny, but clamp just in case
+  wait = Math.min(wait, DAY);
+  popTimer = setTimeout(()=>{ popTimer = null; render(); }, wait + 50);
+}
+
+function refreshStats(){
+  rollDay();
+  const {due,total} = counts();
+  document.getElementById('stNew').textContent = state.daily.newCount;
+  document.getElementById('stDue').textContent = due;
+  document.getElementById('stDone').textContent = state.daily.doneCount;
+  document.getElementById('stTotal').textContent = total;
+}
+
+function render(){
+  refreshStats();
+  current = pickNext();
+  revealed = false;
+  if(!current){ renderEmpty(); scheduleAutoPop(); return; }
+  scheduleAutoPop();
+  const isNew = !state.cards[current.id];
+  const cur = state.cards[current.id] || {rep:0,ease:2.5,interval:0,due:0};
+  host.innerHTML = `
+    <div class="card">
+      <div class="eyebrow">${isNew ? "New word" : "Review"}</div>
+      <h2 class="word">${esc(current.word)}</h2>
+      ${current.pos ? `<div class="pos">${esc(current.pos)}</div>`:""}
+      <div class="reveal" id="reveal">
+        ${current.bengali?`<div class="field"><div class="k">Bengali</div><div class="bengali">${esc(current.bengali)}</div></div>`:""}
+        ${current.definition?`<div class="field"><div class="k">Definition</div><div class="def">${esc(current.definition)}</div></div>`:""}
+        ${current.example?`<div class="field"><div class="k">In a sentence</div><div class="ex">“${esc(current.example)}”</div></div>`:""}
+      </div>
+      <div class="controls" id="controls">
+        <button class="show-btn" id="showBtn">Show answer &nbsp;·&nbsp; <kbd>Space</kbd></button>
+      </div>
+    </div>
+    <p class="hint">Rate honestly — the schedule adapts to you.</p>
+  `;
+  document.getElementById('showBtn').onclick = doReveal;
+
+  // stash for grade preview
+  current._cur = cur;
+}
+
+function doReveal(){
+  if(revealed || !current) return;
+  revealed = true;
+  document.getElementById('reveal').classList.add('show');
+  const cur = current._cur;
+  document.getElementById('controls').innerHTML = `
+    <div class="grades">
+      <button class="g-again" data-g="0"><span class="lbl">Relearn</span><span class="nxt">${previewInterval(cur,0)}</span></button>
+      <button class="g-hard"  data-g="1"><span class="lbl">Hard</span><span class="nxt">${previewInterval(cur,1)}</span></button>
+      <button class="g-good"  data-g="2"><span class="lbl">Good</span><span class="nxt">${previewInterval(cur,2)}</span></button>
+      <button class="g-easy"  data-g="3"><span class="lbl">Easy</span><span class="nxt">${previewInterval(cur,3)}</span></button>
+    </div>`;
+  document.querySelectorAll('.grades button').forEach(b=>{
+    b.onclick = ()=> grade(parseInt(b.dataset.g,10));
+  });
+}
+
+function grade(g){
+  if(!current) return;
+  const wasNew = !state.cards[current.id];
+  state.cards[current.id] = schedule(state.cards[current.id], g);
+  if(wasNew) state.daily.newCount++;
+  state.daily.doneCount++;
+  saveState(state);
+  render();
+}
+
+function renderEmpty(){
+  const t = nextDueTime();
+  const now = Date.now();
+  // Is the soonest pending card a short relearn (within the next hour)?
+  if(t !== null && (t - now) <= 60*MIN){
+    const mins = Math.max(1, Math.round((t - now)/MIN));
+    host.innerHTML = `
+      <div class="card"><div class="empty">
+        <div class="eyebrow">Relearning</div>
+        <h2>Nice — caught up for now</h2>
+        <p>The next card you marked <strong>Relearn</strong> comes back in about
+        <strong>${mins} minute${mins===1?"":"s"}</strong>. Keep this tab open and it’ll
+        reappear on its own, or take a short break.</p>
+      </div></div>`;
+    return;
+  }
+  host.innerHTML = `
+    <div class="card"><div class="empty">
+      <div class="eyebrow">All clear</div>
+      <h2>Nothing due right now</h2>
+      <p>You’ve reviewed everything that was scheduled for today. Come back later, or import a backup to continue on this device.</p>
+    </div></div>`;
+}
+
+function esc(s){ return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m])); }
+
+/* ============================================================
+   KEYBOARD: Space reveal; 1-4 grade
+   ============================================================ */
+document.addEventListener('keydown', e=>{
+  if(e.target.tagName==='INPUT') return;
+  if(e.code==='Space'){ e.preventDefault(); if(!revealed) doReveal(); }
+  else if(revealed && ['1','2','3','4'].includes(e.key)){ grade(parseInt(e.key,10)-1); }
+});
+
+/* ============================================================
+   BACKUP: export / import / reset
+   ============================================================ */
+function toast(msg){
+  const t=document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),1900);
+}
+document.getElementById('exportBtn').onclick = ()=>{
+  const blob = new Blob([JSON.stringify(state,null,2)],{type:'application/json'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download=`vocab-progress-${todayStr()}.json`;
+  a.click(); URL.revokeObjectURL(a.href);
+  toast("Backup downloaded");
+};
+document.getElementById('importBtn').onclick = ()=> document.getElementById('fileInput').click();
+document.getElementById('fileInput').onchange = e=>{
+  const f=e.target.files[0]; if(!f) return;
+  const r=new FileReader();
+  r.onload=()=>{
+    try{
+      const data=JSON.parse(r.result);
+      if(!data.cards) throw 0;
+      state=data; saveState(state); render(); toast("Backup restored");
+    }catch{ toast("That file didn’t look right"); }
+  };
+  r.readAsText(f);
+  e.target.value="";
+};
+document.getElementById('resetBtn').onclick = ()=>{
+  if(confirm("Erase all progress on this device? Export a backup first if you want to keep it.")){
+    state=base(); saveState(state); render(); toast("Progress reset");
+  }
+};
+
+render();
+</script>
+</body>
+</html>
