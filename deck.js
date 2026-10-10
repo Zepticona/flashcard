@@ -7250,4 +7250,1700 @@ window.DECK = [
     definition: "A state of temporary suspension or inactivity.",
     example: "The project was held in abeyance until funds arrived.",
   },
+  {
+    "id": "w0901",
+    "word": "abstract",
+    "pos": "adjective",
+    "bengali": "বিমূর্ত; তত্ত্বগত",
+    "definition": "Existing in thought or theory rather than concrete reality.",
+    "example": "Justice is an abstract idea that is hard to define."
+  },
+  {
+    "id": "w0902",
+    "word": "affront",
+    "pos": "noun",
+    "bengali": "প্রকাশ্য অপমান; অবমাননা",
+    "definition": "An open insult to one's dignity or self-respect.",
+    "example": "He took the snub as a personal affront."
+  },
+  {
+    "id": "w0903",
+    "word": "agitate",
+    "pos": "verb",
+    "bengali": "আন্দোলিত করা; উত্তেজিত করা",
+    "definition": "To stir up, disturb, or campaign energetically for change.",
+    "example": "Workers began to agitate for better pay."
+  },
+  {
+    "id": "w0904",
+    "word": "august",
+    "pos": "adjective",
+    "bengali": "মহিমান্বিত; শ্রদ্ধেয়",
+    "definition": "Inspiring reverence and respect; majestic.",
+    "example": "The ceremony was held in an august old hall."
+  },
+  {
+    "id": "w0905",
+    "word": "burnish",
+    "pos": "verb",
+    "bengali": "ঘষে উজ্জ্বল করা; চকচকে করা",
+    "definition": "To polish by rubbing, or to improve a reputation.",
+    "example": "He wrote the book to burnish his public image."
+  },
+  {
+    "id": "w0906",
+    "word": "coy",
+    "pos": "adjective",
+    "bengali": "লজ্জাশীল ভান; মুখচোরা",
+    "definition": "Pretending shyness or reluctance, often teasingly.",
+    "example": "She was coy about revealing her age."
+  },
+  {
+    "id": "w0907",
+    "word": "deprecate",
+    "pos": "verb",
+    "bengali": "অবজ্ঞা করা; নিন্দা জানানো",
+    "definition": "To express disapproval of; to belittle.",
+    "example": "He tends to deprecate his own achievements."
+  },
+  {
+    "id": "w0908",
+    "word": "disdain",
+    "pos": "noun",
+    "bengali": "অবজ্ঞা; তাচ্ছিল্য",
+    "definition": "The feeling that someone or something is unworthy of respect.",
+    "example": "She looked at the cheap imitation with disdain."
+  },
+  {
+    "id": "w0909",
+    "word": "disperse",
+    "pos": "verb",
+    "bengali": "ছত্রভঙ্গ করা; ছড়িয়ে দেওয়া",
+    "definition": "To scatter or spread over a wide area.",
+    "example": "Police used water to disperse the crowd."
+  },
+  {
+    "id": "w0910",
+    "word": "distend",
+    "pos": "verb",
+    "bengali": "ফুলে ওঠা; স্ফীত করা",
+    "definition": "To swell out from internal pressure.",
+    "example": "Hunger had distended the child's belly."
+  },
+  {
+    "id": "w0911",
+    "word": "endemic",
+    "pos": "adjective",
+    "bengali": "স্থানীয়ভাবে ব্যাপক; নির্দিষ্ট অঞ্চলে সীমাবদ্ধ",
+    "definition": "Regularly found among a particular group or in a certain area.",
+    "example": "The disease is endemic to tropical regions."
+  },
+  {
+    "id": "w0912",
+    "word": "enmity",
+    "pos": "noun",
+    "bengali": "শত্রুতা; বৈরিতা",
+    "definition": "A state of deep-seated hostility.",
+    "example": "Years of enmity divided the two families."
+  },
+  {
+    "id": "w0913",
+    "word": "gauche",
+    "pos": "adjective",
+    "bengali": "অমার্জিত; সামাজিকভাবে অপটু",
+    "definition": "Lacking social grace; awkward and tactless.",
+    "example": "It would be gauche to ask how much she earns."
+  },
+  {
+    "id": "w0914",
+    "word": "hysterical",
+    "pos": "adjective",
+    "bengali": "উন্মত্ত; আবেগে অনিয়ন্ত্রিত",
+    "definition": "Marked by uncontrollable emotion or excitement.",
+    "example": "She became hysterical when she heard the news."
+  },
+  {
+    "id": "w0915",
+    "word": "impudent",
+    "pos": "adjective",
+    "bengali": "ধৃষ্ট; বেয়াদব",
+    "definition": "Boldly disrespectful; impertinent.",
+    "example": "The impudent boy stuck out his tongue at the teacher."
+  },
+  {
+    "id": "w0916",
+    "word": "inchoate",
+    "pos": "adjective",
+    "bengali": "অসম্পূর্ণ; সবে-শুরু হওয়া",
+    "definition": "Just begun and not yet fully formed.",
+    "example": "He had only an inchoate plan for the business."
+  },
+  {
+    "id": "w0917",
+    "word": "penchant",
+    "pos": "noun",
+    "bengali": "ঝোঁক; প্রবল রুচি",
+    "definition": "A strong liking or inclination for something.",
+    "example": "She has a penchant for old detective novels."
+  },
+  {
+    "id": "w0918",
+    "word": "quandary",
+    "pos": "noun",
+    "bengali": "উভয়সংকট; দ্বিধা",
+    "definition": "A state of uncertainty over a difficult choice.",
+    "example": "He was in a quandary about which job to accept."
+  },
+  {
+    "id": "w0919",
+    "word": "quarantine",
+    "pos": "noun",
+    "bengali": "সঙ্গরোধ; বিচ্ছিন্নকরণ",
+    "definition": "A period of isolation to prevent the spread of disease.",
+    "example": "Travelers were placed in quarantine for two weeks."
+  },
+  {
+    "id": "w0920",
+    "word": "quash",
+    "pos": "verb",
+    "bengali": "নাকচ করা; দমন করা",
+    "definition": "To reject as invalid, or to forcibly suppress.",
+    "example": "The court quashed the unlawful conviction."
+  },
+  {
+    "id": "w0921",
+    "word": "quibble",
+    "pos": "verb",
+    "bengali": "তুচ্ছ বিষয়ে তর্ক করা",
+    "definition": "To argue over small, unimportant details.",
+    "example": "Let's not quibble over a few cents."
+  },
+  {
+    "id": "w0922",
+    "word": "ravage",
+    "pos": "verb",
+    "bengali": "ধ্বংস করা; তছনছ করা",
+    "definition": "To cause severe and widespread damage to.",
+    "example": "The fire ravaged thousands of acres of forest."
+  },
+  {
+    "id": "w0923",
+    "word": "recant",
+    "pos": "verb",
+    "bengali": "মত প্রত্যাহার করা; অস্বীকার করা",
+    "definition": "To formally withdraw a former belief or statement.",
+    "example": "Under pressure, he recanted his earlier testimony."
+  },
+  {
+    "id": "w0924",
+    "word": "redoubtable",
+    "pos": "adjective",
+    "bengali": "ভীতিজাগানিয়া; সম্ভ্রম-উদ্রেককারী",
+    "definition": "Formidable, especially as an opponent.",
+    "example": "She was a redoubtable debater whom few dared challenge."
+  },
+  {
+    "id": "w0925",
+    "word": "retiring",
+    "pos": "adjective",
+    "bengali": "সংকোচপ্রবণ; নিভৃতচারী",
+    "definition": "Shy and fond of being alone; reserved.",
+    "example": "Despite his fame, he was a retiring, private man."
+  },
+  {
+    "id": "w0926",
+    "word": "shrill",
+    "pos": "adjective",
+    "bengali": "তীক্ষ্ণ ও কর্কশ (স্বর)",
+    "definition": "High-pitched and piercing in sound.",
+    "example": "A shrill whistle cut through the noise."
+  },
+  {
+    "id": "w0927",
+    "word": "sophistry",
+    "pos": "noun",
+    "bengali": "কূটতর্ক; বিভ্রান্তিকর যুক্তি",
+    "definition": "Clever but misleading or fallacious reasoning.",
+    "example": "His argument was mere sophistry dressed up as logic."
+  },
+  {
+    "id": "w0928",
+    "word": "substantiate",
+    "pos": "verb",
+    "bengali": "প্রমাণসহ সমর্থন করা",
+    "definition": "To provide evidence to support or prove a claim.",
+    "example": "He could not substantiate his accusation."
+  },
+  {
+    "id": "w0929",
+    "word": "wily",
+    "pos": "adjective",
+    "bengali": "ধূর্ত; চালাক",
+    "definition": "Skilled at gaining an advantage through cunning.",
+    "example": "The wily fox slipped past every trap."
+  },
+  {
+    "id": "w0930",
+    "word": "querulous",
+    "pos": "adjective",
+    "bengali": "খিটখিটে; নালিশপ্রবণ",
+    "definition": "Complaining in a peevish, whining way.",
+    "example": "The patient grew querulous as the wait dragged on."
+  },
+  {
+    "id": "w0931",
+    "word": "phony",
+    "pos": "adjective",
+    "bengali": "ভুয়া; নকল",
+    "definition": "Not genuine; fraudulent.",
+    "example": "He gave a phony name at the front desk."
+  },
+  {
+    "id": "w0932",
+    "word": "check",
+    "pos": "verb",
+    "bengali": "রুদ্ধ করা; নিয়ন্ত্রণ করা",
+    "definition": "To stop or slow the progress of something.",
+    "example": "They acted quickly to check the spread of the fire."
+  },
+  {
+    "id": "w0933",
+    "word": "boorish",
+    "pos": "adjective",
+    "bengali": "রূঢ়; অভদ্র",
+    "definition": "Rough and bad-mannered; coarse.",
+    "example": "His boorish behavior embarrassed everyone at dinner."
+  },
+  {
+    "id": "w0934",
+    "word": "brook",
+    "pos": "verb",
+    "bengali": "সহ্য করা; বরদাস্ত করা",
+    "definition": "To tolerate or allow, usually in the negative.",
+    "example": "She would brook no interference in her work."
+  },
+  {
+    "id": "w0935",
+    "word": "circumspect",
+    "pos": "adjective",
+    "bengali": "সতর্ক; বিবেচক",
+    "definition": "Wary and careful before acting; prudent.",
+    "example": "Be circumspect about sharing personal details online."
+  },
+  {
+    "id": "w0936",
+    "word": "comity",
+    "pos": "noun",
+    "bengali": "সৌজন্য; পারস্পরিক সদ্ভাব",
+    "definition": "Courteous, harmonious behavior between people or nations.",
+    "example": "The treaty was signed in a spirit of comity."
+  },
+  {
+    "id": "w0937",
+    "word": "commensurate",
+    "pos": "adjective",
+    "bengali": "সমানুপাতিক; সঙ্গতিপূর্ণ",
+    "definition": "Corresponding in size or degree; proportionate.",
+    "example": "Pay should be commensurate with experience."
+  },
+  {
+    "id": "w0938",
+    "word": "cordial",
+    "pos": "adjective",
+    "bengali": "আন্তরিক; সৌহার্দ্যপূর্ণ",
+    "definition": "Warm, friendly, and sincere.",
+    "example": "They exchanged cordial greetings at the door."
+  },
+  {
+    "id": "w0939",
+    "word": "deleterious",
+    "pos": "adjective",
+    "bengali": "ক্ষতিকর; অনিষ্টকর",
+    "definition": "Causing harm or damage.",
+    "example": "Smoking has a deleterious effect on health."
+  },
+  {
+    "id": "w0940",
+    "word": "dichotomy",
+    "pos": "noun",
+    "bengali": "দ্বিবিভাজন; বৈপরীত্য",
+    "definition": "A division into two sharply contrasted parts.",
+    "example": "There is a false dichotomy between work and play."
+  },
+  {
+    "id": "w0941",
+    "word": "edify",
+    "pos": "verb",
+    "bengali": "জ্ঞান ও নীতিতে উন্নত করা",
+    "definition": "To instruct and improve morally or intellectually.",
+    "example": "The lectures were meant to edify young minds."
+  },
+  {
+    "id": "w0942",
+    "word": "elicit",
+    "pos": "verb",
+    "bengali": "বের করে আনা; উদ্রেক করা",
+    "definition": "To draw out a response, answer, or reaction.",
+    "example": "The question elicited a burst of laughter."
+  },
+  {
+    "id": "w0943",
+    "word": "erudite",
+    "pos": "adjective",
+    "bengali": "পাণ্ডিত্যপূর্ণ; বিদ্বান",
+    "definition": "Having or showing deep, extensive learning.",
+    "example": "The erudite professor quoted from memory for an hour."
+  },
+  {
+    "id": "w0944",
+    "word": "fecund",
+    "pos": "adjective",
+    "bengali": "উর্বর; ফলবতী",
+    "definition": "Highly fertile or productive.",
+    "example": "The delta's fecund soil yields three crops a year."
+  },
+  {
+    "id": "w0945",
+    "word": "feeble",
+    "pos": "adjective",
+    "bengali": "দুর্বল; ক্ষীণ",
+    "definition": "Lacking physical or mental strength; weak.",
+    "example": "He gave only a feeble excuse for his absence."
+  },
+  {
+    "id": "w0946",
+    "word": "felicitous",
+    "pos": "adjective",
+    "bengali": "যথাযথ ও সুন্দর; শুভ",
+    "definition": "Well-chosen and apt; pleasingly suitable.",
+    "example": "She closed with a felicitous turn of phrase."
+  },
+  {
+    "id": "w0947",
+    "word": "forbear",
+    "pos": "verb",
+    "bengali": "বিরত থাকা; সংযম করা",
+    "definition": "To hold back from doing something; to refrain patiently.",
+    "example": "He forbore to mention the embarrassing mistake."
+  },
+  {
+    "id": "w0948",
+    "word": "haphazard",
+    "pos": "adjective",
+    "bengali": "এলোমেলো; পরিকল্পনাহীন",
+    "definition": "Lacking order or planning; random.",
+    "example": "The books were stacked in a haphazard pile."
+  },
+  {
+    "id": "w0949",
+    "word": "hodgepodge",
+    "pos": "noun",
+    "bengali": "জগাখিচুড়ি; এলোমেলো মিশ্রণ",
+    "definition": "A confused mixture of unrelated things.",
+    "example": "The report was a hodgepodge of half-finished ideas."
+  },
+  {
+    "id": "w0950",
+    "word": "impede",
+    "pos": "verb",
+    "bengali": "বাধা দেওয়া; ব্যাহত করা",
+    "definition": "To slow down or obstruct progress.",
+    "example": "Fallen trees impeded the rescue team."
+  },
+  {
+    "id": "w0951",
+    "word": "impetuous",
+    "pos": "adjective",
+    "bengali": "আবেগপ্রবণ; হঠকারী",
+    "definition": "Acting quickly and rashly, without thought.",
+    "example": "His impetuous decision cost him the deal."
+  },
+  {
+    "id": "w0952",
+    "word": "irascible",
+    "pos": "adjective",
+    "bengali": "বদমেজাজি; সহজে রাগান্বিত",
+    "definition": "Easily angered; hot-tempered.",
+    "example": "The irascible old man shouted at the children."
+  },
+  {
+    "id": "w0953",
+    "word": "mercenary",
+    "pos": "adjective",
+    "bengali": "অর্থলোভী; স্বার্থপ্রণোদিত",
+    "definition": "Motivated chiefly by the desire for money.",
+    "example": "His help was purely mercenary, not kind."
+  },
+  {
+    "id": "w0954",
+    "word": "meticulous",
+    "pos": "adjective",
+    "bengali": "অতি যত্নশীল; খুঁটিনাটিতে নিখুঁত",
+    "definition": "Showing great attention to detail; very careful.",
+    "example": "She kept meticulous records of every expense."
+  },
+  {
+    "id": "w0955",
+    "word": "mordant",
+    "pos": "adjective",
+    "bengali": "তীক্ষ্ণ ও বিদ্রূপাত্মক",
+    "definition": "Sharply sarcastic or biting, especially in humor.",
+    "example": "His mordant wit spared no one."
+  },
+  {
+    "id": "w0956",
+    "word": "outstrip",
+    "pos": "verb",
+    "bengali": "ছাড়িয়ে যাওয়া; অতিক্রম করা",
+    "definition": "To move faster than or exceed.",
+    "example": "Demand quickly outstripped supply."
+  },
+  {
+    "id": "w0957",
+    "word": "precarious",
+    "pos": "adjective",
+    "bengali": "ঝুঁকিপূর্ণ; অনিশ্চিত",
+    "definition": "Dangerously unstable or uncertain.",
+    "example": "The ladder was in a precarious position."
+  },
+  {
+    "id": "w0958",
+    "word": "quirky",
+    "pos": "adjective",
+    "bengali": "খেয়ালি; উদ্ভট ধরনের",
+    "definition": "Having peculiar or unexpected traits.",
+    "example": "The shop has a quirky charm all its own."
+  },
+  {
+    "id": "w0959",
+    "word": "repudiate",
+    "pos": "verb",
+    "bengali": "অস্বীকার করা; পরিত্যাগ করা",
+    "definition": "To refuse to accept or be associated with.",
+    "example": "She repudiated the rumors as baseless."
+  },
+  {
+    "id": "w0960",
+    "word": "tact",
+    "pos": "noun",
+    "bengali": "কৌশল; বিচক্ষণ ব্যবহার",
+    "definition": "Skill in handling sensitive matters without giving offense.",
+    "example": "He broke the bad news with great tact."
+  },
+  {
+    "id": "w0961",
+    "word": "trifling",
+    "pos": "adjective",
+    "bengali": "তুচ্ছ; নগণ্য",
+    "definition": "Unimportant or trivial.",
+    "example": "Don't worry about such trifling matters."
+  },
+  {
+    "id": "w0962",
+    "word": "turbulent",
+    "pos": "adjective",
+    "bengali": "উত্তাল; অশান্ত",
+    "definition": "Marked by conflict, disorder, or violent movement.",
+    "example": "They lived through a turbulent period of history."
+  },
+  {
+    "id": "w0963",
+    "word": "acolyte",
+    "pos": "noun",
+    "bengali": "অনুসারী; সহকারী শিষ্য",
+    "definition": "A devoted follower or assistant.",
+    "example": "The guru was surrounded by eager acolytes."
+  },
+  {
+    "id": "w0964",
+    "word": "anoint",
+    "pos": "verb",
+    "bengali": "অভিষিক্ত করা; মনোনীত করা",
+    "definition": "To ceremonially consecrate, or to designate as chosen.",
+    "example": "The press had anointed her the next great novelist."
+  },
+  {
+    "id": "w0965",
+    "word": "base",
+    "pos": "adjective",
+    "bengali": "নীচ; হীন",
+    "definition": "Lacking moral principles; contemptible.",
+    "example": "Betraying a friend is a base act."
+  },
+  {
+    "id": "w0966",
+    "word": "coercion",
+    "pos": "noun",
+    "bengali": "জবরদস্তি; বলপ্রয়োগ",
+    "definition": "The use of force or threats to make someone act.",
+    "example": "The confession was obtained through coercion."
+  },
+  {
+    "id": "w0967",
+    "word": "coin",
+    "pos": "verb",
+    "bengali": "নতুন শব্দ উদ্ভাবন করা",
+    "definition": "To invent a new word or phrase.",
+    "example": "She coined a term that soon caught on everywhere."
+  },
+  {
+    "id": "w0968",
+    "word": "cunning",
+    "pos": "adjective",
+    "bengali": "ধূর্ত; চতুর",
+    "definition": "Clever at achieving aims through deceit.",
+    "example": "A cunning thief, he left no trace behind."
+  },
+  {
+    "id": "w0969",
+    "word": "discomfit",
+    "pos": "verb",
+    "bengali": "বিব্রত করা; হতভম্ব করা",
+    "definition": "To make someone uneasy or embarrassed.",
+    "example": "The sharp question discomfited the speaker."
+  },
+  {
+    "id": "w0970",
+    "word": "dissent",
+    "pos": "noun",
+    "bengali": "ভিন্নমত; মতবিরোধ",
+    "definition": "Disagreement with an official or majority view.",
+    "example": "The lone judge wrote a strong dissent."
+  },
+  {
+    "id": "w0971",
+    "word": "distill",
+    "pos": "verb",
+    "bengali": "নির্যাস বের করা; সারসংক্ষেপ করা",
+    "definition": "To extract the essential meaning or essence of.",
+    "example": "He distilled years of research into one short talk."
+  },
+  {
+    "id": "w0972",
+    "word": "dubious",
+    "pos": "adjective",
+    "bengali": "সন্দেহজনক; অনিশ্চিত",
+    "definition": "Doubtful, questionable, or not to be relied upon.",
+    "example": "The deal rested on dubious assumptions."
+  },
+  {
+    "id": "w0973",
+    "word": "ebullient",
+    "pos": "adjective",
+    "bengali": "উচ্ছ্বসিত; প্রাণোচ্ছল",
+    "definition": "Cheerful and full of energy.",
+    "example": "She was ebullient after acing the exam."
+  },
+  {
+    "id": "w0974",
+    "word": "facetious",
+    "pos": "adjective",
+    "bengali": "রসিকতাচ্ছলে অগম্ভীর; তামাশাপূর্ণ",
+    "definition": "Treating serious matters with inappropriate humor.",
+    "example": "His facetious remark fell flat at the funeral."
+  },
+  {
+    "id": "w0975",
+    "word": "fallible",
+    "pos": "adjective",
+    "bengali": "ভ্রান্তিপ্রবণ; ত্রুটিসাপেক্ষ",
+    "definition": "Capable of making mistakes; not perfect.",
+    "example": "Even experts are fallible."
+  },
+  {
+    "id": "w0976",
+    "word": "florid",
+    "pos": "adjective",
+    "bengali": "অতিঅলংকৃত; জবড়জং",
+    "definition": "Excessively ornate or elaborate in style.",
+    "example": "The letter was written in a florid, old-fashioned hand."
+  },
+  {
+    "id": "w0977",
+    "word": "gawky",
+    "pos": "adjective",
+    "bengali": "অপটু; আড়ষ্ট",
+    "definition": "Awkward and clumsy, especially physically.",
+    "example": "He was a gawky teenager, all elbows and knees."
+  },
+  {
+    "id": "w0978",
+    "word": "inveigle",
+    "pos": "verb",
+    "bengali": "ফুসলিয়ে রাজি করানো; ভোলানো",
+    "definition": "To persuade by flattery or deception.",
+    "example": "She inveigled her way into the private party."
+  },
+  {
+    "id": "w0979",
+    "word": "jettison",
+    "pos": "verb",
+    "bengali": "ফেলে দেওয়া; পরিত্যাগ করা",
+    "definition": "To throw or cast off as unwanted.",
+    "example": "The crew jettisoned cargo to lighten the ship."
+  },
+  {
+    "id": "w0980",
+    "word": "mendacity",
+    "pos": "noun",
+    "bengali": "মিথ্যাচার; অসত্যতা",
+    "definition": "Untruthfulness; the tendency to lie.",
+    "example": "The scandal exposed the official's mendacity."
+  },
+  {
+    "id": "w0981",
+    "word": "munificent",
+    "pos": "adjective",
+    "bengali": "অত্যন্ত উদার; দানশীল",
+    "definition": "Extremely generous.",
+    "example": "A munificent gift funded the new library."
+  },
+  {
+    "id": "w0982",
+    "word": "naive",
+    "pos": "adjective",
+    "bengali": "সরল; অনভিজ্ঞ",
+    "definition": "Lacking experience, wisdom, or judgment.",
+    "example": "It was naive to trust such an obvious trickster."
+  },
+  {
+    "id": "w0983",
+    "word": "noble",
+    "pos": "adjective",
+    "bengali": "মহৎ; উদার",
+    "definition": "Having fine moral qualities; admirable.",
+    "example": "Helping the stranger was a noble gesture."
+  },
+  {
+    "id": "w0984",
+    "word": "parochial",
+    "pos": "adjective",
+    "bengali": "সংকীর্ণ; স্থানীয় স্বার্থকেন্দ্রিক",
+    "definition": "Narrow in outlook; concerned only with local matters.",
+    "example": "His parochial views ignored the wider world."
+  },
+  {
+    "id": "w0985",
+    "word": "pedestrian",
+    "pos": "adjective",
+    "bengali": "একঘেয়ে; সাদামাটা",
+    "definition": "Dull and ordinary; lacking inspiration.",
+    "example": "The script was competent but pedestrian."
+  },
+  {
+    "id": "w0986",
+    "word": "prevaricate",
+    "pos": "verb",
+    "bengali": "সত্য এড়িয়ে যাওয়া; ঘোরানো কথা বলা",
+    "definition": "To avoid telling the truth by speaking evasively.",
+    "example": "Stop prevaricating and give me a straight answer."
+  },
+  {
+    "id": "w0987",
+    "word": "prime",
+    "pos": "verb",
+    "bengali": "প্রস্তুত করা; তৈরি করে রাখা",
+    "definition": "To prepare someone or something for use or action.",
+    "example": "She primed the team before the big presentation."
+  },
+  {
+    "id": "w0988",
+    "word": "radical",
+    "pos": "adjective",
+    "bengali": "আমূল; মৌলিক পরিবর্তনকামী",
+    "definition": "Relating to fundamental change; far-reaching.",
+    "example": "The plan called for a radical overhaul of the system."
+  },
+  {
+    "id": "w0989",
+    "word": "recrudescent",
+    "pos": "adjective",
+    "bengali": "পুনরায় প্রকট; পুনর্জাগ্রত",
+    "definition": "Breaking out afresh after a period of dormancy.",
+    "example": "The region feared a recrudescent outbreak of the virus."
+  },
+  {
+    "id": "w0990",
+    "word": "temporal",
+    "pos": "adjective",
+    "bengali": "কালিক; জাগতিক",
+    "definition": "Relating to time, or to worldly rather than spiritual affairs.",
+    "example": "The church had no temporal power over the state."
+  },
+  {
+    "id": "w0991",
+    "word": "transitory",
+    "pos": "adjective",
+    "bengali": "ক্ষণস্থায়ী; অস্থায়ী",
+    "definition": "Lasting only a short time; impermanent.",
+    "example": "Fame proved transitory and soon faded."
+  },
+  {
+    "id": "w0992",
+    "word": "viable",
+    "pos": "adjective",
+    "bengali": "কার্যকর; টিকে থাকার যোগ্য",
+    "definition": "Capable of working successfully; feasible.",
+    "example": "We need a financially viable plan."
+  },
+  {
+    "id": "w0993",
+    "word": "abscond",
+    "pos": "verb",
+    "bengali": "গা-ঢাকা দিয়ে পালানো",
+    "definition": "To leave hurriedly and secretly to avoid capture.",
+    "example": "The cashier absconded with the week's takings."
+  },
+  {
+    "id": "w0994",
+    "word": "apogee",
+    "pos": "noun",
+    "bengali": "চরম শিখর; সর্বোচ্চ বিন্দু",
+    "definition": "The highest or culminating point.",
+    "example": "The empire reached its apogee under her rule."
+  },
+  {
+    "id": "w0995",
+    "word": "aspersion",
+    "pos": "noun",
+    "bengali": "কুৎসা; অপবাদ",
+    "definition": "A damaging or disparaging remark.",
+    "example": "He cast aspersions on her honesty."
+  },
+  {
+    "id": "w0996",
+    "word": "bawdy",
+    "pos": "adjective",
+    "bengali": "অশ্লীল; রসিকতায় কুরুচিপূর্ণ",
+    "definition": "Humorously coarse or indecent.",
+    "example": "The tavern rang with bawdy songs."
+  },
+  {
+    "id": "w0997",
+    "word": "chagrin",
+    "pos": "noun",
+    "bengali": "মর্মপীড়া; বিরক্তিমিশ্রিত হতাশা",
+    "definition": "Distress or annoyance at failure or humiliation.",
+    "example": "To his chagrin, he had forgotten the key."
+  },
+  {
+    "id": "w0998",
+    "word": "collude",
+    "pos": "verb",
+    "bengali": "গোপন আঁতাত করা; ষড়যন্ত্র করা",
+    "definition": "To cooperate secretly for a dishonest purpose.",
+    "example": "The firms colluded to fix prices."
+  },
+  {
+    "id": "w0999",
+    "word": "commiserate",
+    "pos": "verb",
+    "bengali": "সহানুভূতি জানানো; সমব্যথী হওয়া",
+    "definition": "To express sympathy for another's misfortune.",
+    "example": "Friends gathered to commiserate with the losing team."
+  },
+  {
+    "id": "w1000",
+    "word": "conflagration",
+    "pos": "noun",
+    "bengali": "ভয়াবহ অগ্নিকাণ্ড; মহাদাহ",
+    "definition": "A large, destructive fire.",
+    "example": "The conflagration consumed the entire block."
+  },
+  {
+    "id": "w1001",
+    "word": "contretemps",
+    "pos": "noun",
+    "bengali": "বিব্রতকর ঘটনা; অপ্রীতিকর বিবাদ",
+    "definition": "An awkward or embarrassing mishap or clash.",
+    "example": "A minor contretemps over seating delayed the dinner."
+  },
+  {
+    "id": "w1002",
+    "word": "conviction",
+    "pos": "noun",
+    "bengali": "দৃঢ় বিশ্বাস; প্রত্যয়",
+    "definition": "A firmly held belief, or the quality of being certain.",
+    "example": "She spoke with deep conviction about the cause."
+  },
+  {
+    "id": "w1003",
+    "word": "croon",
+    "pos": "verb",
+    "bengali": "মৃদুস্বরে গান গাওয়া",
+    "definition": "To sing or speak softly and soothingly.",
+    "example": "He crooned a lullaby to the sleepy child."
+  },
+  {
+    "id": "w1004",
+    "word": "depose",
+    "pos": "verb",
+    "bengali": "পদচ্যুত করা; ক্ষমতাচ্যুত করা",
+    "definition": "To remove from office, especially forcibly.",
+    "example": "The general was deposed in a sudden coup."
+  },
+  {
+    "id": "w1005",
+    "word": "detente",
+    "pos": "noun",
+    "bengali": "উত্তেজনা প্রশমন; সম্পর্কের শিথিলতা",
+    "definition": "An easing of hostility between rival powers.",
+    "example": "The summit marked a new detente between the nations."
+  },
+  {
+    "id": "w1006",
+    "word": "dowdy",
+    "pos": "adjective",
+    "bengali": "মলিন ও সেকেলে পোশাকের; রুচিহীন",
+    "definition": "Unfashionable and dull in appearance.",
+    "example": "She felt dowdy next to the elegant guests."
+  },
+  {
+    "id": "w1007",
+    "word": "echelon",
+    "pos": "noun",
+    "bengali": "স্তর; পদমর্যাদার ধাপ",
+    "definition": "A level or rank in an organization or society.",
+    "example": "He rose to the upper echelons of the company."
+  },
+  {
+    "id": "w1008",
+    "word": "ennui",
+    "pos": "noun",
+    "bengali": "ক্লান্তিকর একঘেয়েমি; বিষণ্ন অবসাদ",
+    "definition": "A feeling of weary boredom and dissatisfaction.",
+    "example": "A deep ennui settled over the idle afternoon."
+  },
+  {
+    "id": "w1009",
+    "word": "expatiate",
+    "pos": "verb",
+    "bengali": "বিস্তারিতভাবে বলা; সবিস্তারে আলোচনা করা",
+    "definition": "To speak or write at length on a subject.",
+    "example": "He expatiated on his travels for over an hour."
+  },
+  {
+    "id": "w1010",
+    "word": "fraught",
+    "pos": "adjective",
+    "bengali": "উদ্বেগপূর্ণ; ঝুঁকিভরা",
+    "definition": "Filled with (something undesirable), or causing anxiety.",
+    "example": "The journey was fraught with danger."
+  },
+  {
+    "id": "w1011",
+    "word": "fulcrum",
+    "pos": "noun",
+    "bengali": "অবলম্বন বিন্দু; কেন্দ্রীয় ভর",
+    "definition": "The pivot on which a lever turns; a central point of support.",
+    "example": "Trust was the fulcrum of their partnership."
+  },
+  {
+    "id": "w1012",
+    "word": "imbroglio",
+    "pos": "noun",
+    "bengali": "জটিল বিশৃঙ্খলা; গোলমেলে পরিস্থিতি",
+    "definition": "A confused and complicated situation.",
+    "example": "The company was caught in a legal imbroglio."
+  },
+  {
+    "id": "w1013",
+    "word": "jocund",
+    "pos": "adjective",
+    "bengali": "প্রফুল্ল; আনন্দময়",
+    "definition": "Cheerful and lighthearted.",
+    "example": "A jocund mood filled the festive hall."
+  },
+  {
+    "id": "w1014",
+    "word": "languish",
+    "pos": "verb",
+    "bengali": "নিস্তেজ হওয়া; ধুঁকতে থাকা",
+    "definition": "To grow weak, or to suffer neglect for a long time.",
+    "example": "The bill languished in committee for years."
+  },
+  {
+    "id": "w1015",
+    "word": "nadir",
+    "pos": "noun",
+    "bengali": "সর্বনিম্ন বিন্দু; অধঃপতনের চরম",
+    "definition": "The lowest or most unsuccessful point.",
+    "example": "The defeat marked the nadir of his career."
+  },
+  {
+    "id": "w1016",
+    "word": "nimble",
+    "pos": "adjective",
+    "bengali": "ক্ষিপ্র; তৎপর",
+    "definition": "Quick and light in movement or thought.",
+    "example": "Her nimble fingers flew across the keys."
+  },
+  {
+    "id": "w1017",
+    "word": "ominous",
+    "pos": "adjective",
+    "bengali": "অশুভ; অমঙ্গলসূচক",
+    "definition": "Suggesting that something bad is about to happen.",
+    "example": "Ominous clouds gathered over the valley."
+  },
+  {
+    "id": "w1018",
+    "word": "outlandish",
+    "pos": "adjective",
+    "bengali": "উদ্ভট; অদ্ভুত",
+    "definition": "Bizarre and unconventional; strange.",
+    "example": "He made outlandish claims no one believed."
+  },
+  {
+    "id": "w1019",
+    "word": "propitious",
+    "pos": "adjective",
+    "bengali": "অনুকূল; শুভ",
+    "definition": "Giving a good chance of success; favorable.",
+    "example": "It was a propitious moment to launch the venture."
+  },
+  {
+    "id": "w1020",
+    "word": "prurient",
+    "pos": "adjective",
+    "bengali": "কামাসক্ত; অশ্লীল কৌতূহলপূর্ণ",
+    "definition": "Having an excessive interest in sexual matters.",
+    "example": "The report avoided prurient detail."
+  },
+  {
+    "id": "w1021",
+    "word": "sadistic",
+    "pos": "adjective",
+    "bengali": "পরপীড়নকামী; নিষ্ঠুরতা-উপভোগী",
+    "definition": "Taking pleasure in inflicting pain on others.",
+    "example": "The villain had a sadistic streak."
+  },
+  {
+    "id": "w1022",
+    "word": "zenith",
+    "pos": "noun",
+    "bengali": "চূড়া; সর্বোচ্চ শিখর",
+    "definition": "The highest point or peak.",
+    "example": "Her popularity was at its zenith that year."
+  },
+  {
+    "id": "w1023",
+    "word": "acumen",
+    "pos": "noun",
+    "bengali": "তীক্ষ্ণ বুদ্ধি; প্রখর বিচারবোধ",
+    "definition": "The ability to make good judgments quickly.",
+    "example": "Her business acumen turned the shop around."
+  },
+  {
+    "id": "w1024",
+    "word": "antithesis",
+    "pos": "noun",
+    "bengali": "বিপরীত; সম্পূর্ণ বৈপরীত্য",
+    "definition": "The direct opposite of something.",
+    "example": "His calm was the antithesis of her panic."
+  },
+  {
+    "id": "w1025",
+    "word": "ascribe",
+    "pos": "verb",
+    "bengali": "আরোপ করা; দায়ী করা",
+    "definition": "To attribute something to a cause or source.",
+    "example": "She ascribed her success to good mentors."
+  },
+  {
+    "id": "w1026",
+    "word": "befuddled",
+    "pos": "adjective",
+    "bengali": "হতবুদ্ধি; বিভ্রান্ত",
+    "definition": "Confused and unable to think clearly.",
+    "example": "The complex form left him utterly befuddled."
+  },
+  {
+    "id": "w1027",
+    "word": "eschew",
+    "pos": "verb",
+    "bengali": "পরিহার করা; বর্জন করা",
+    "definition": "To deliberately avoid or abstain from.",
+    "example": "She eschews sugar in all its forms."
+  },
+  {
+    "id": "w1028",
+    "word": "esoteric",
+    "pos": "adjective",
+    "bengali": "দুর্বোধ্য; অল্পকিছু মানুষের বোধগম্য",
+    "definition": "Understood by only a small, specialized group.",
+    "example": "The lecture was full of esoteric jargon."
+  },
+  {
+    "id": "w1029",
+    "word": "evasive",
+    "pos": "adjective",
+    "bengali": "এড়িয়ে চলা; অস্পষ্ট",
+    "definition": "Tending to avoid directness or commitment.",
+    "example": "He gave an evasive answer and left quickly."
+  },
+  {
+    "id": "w1030",
+    "word": "exculpate",
+    "pos": "verb",
+    "bengali": "নির্দোষ প্রমাণ করা; দায়মুক্ত করা",
+    "definition": "To clear from blame or guilt.",
+    "example": "The new evidence exculpated the accused."
+  },
+  {
+    "id": "w1031",
+    "word": "expedite",
+    "pos": "verb",
+    "bengali": "ত্বরান্বিত করা; দ্রুততর করা",
+    "definition": "To make a process happen more quickly.",
+    "example": "They paid extra to expedite the shipment."
+  },
+  {
+    "id": "w1032",
+    "word": "fastidious",
+    "pos": "adjective",
+    "bengali": "খুঁতখুঁতে; অতিসতর্ক",
+    "definition": "Very attentive to detail; hard to please.",
+    "example": "He is fastidious about keeping his desk tidy."
+  },
+  {
+    "id": "w1033",
+    "word": "feign",
+    "pos": "verb",
+    "bengali": "ভান করা; মিথ্যা দেখানো",
+    "definition": "To pretend to have a feeling or condition.",
+    "example": "She feigned illness to skip the meeting."
+  },
+  {
+    "id": "w1034",
+    "word": "furtive",
+    "pos": "adjective",
+    "bengali": "গোপন; চোরা",
+    "definition": "Done secretly, as if to avoid being noticed.",
+    "example": "He cast a furtive glance over his shoulder."
+  },
+  {
+    "id": "w1035",
+    "word": "hamper",
+    "pos": "verb",
+    "bengali": "বাধা দেওয়া; প্রতিবন্ধ সৃষ্টি করা",
+    "definition": "To hinder or impede movement or progress.",
+    "example": "Heavy rain hampered the search effort."
+  },
+  {
+    "id": "w1036",
+    "word": "indispensable",
+    "pos": "adjective",
+    "bengali": "অপরিহার্য; অত্যাবশ্যক",
+    "definition": "Absolutely necessary; cannot be done without.",
+    "example": "She became indispensable to the whole team."
+  },
+  {
+    "id": "w1037",
+    "word": "lament",
+    "pos": "verb",
+    "bengali": "বিলাপ করা; শোক প্রকাশ করা",
+    "definition": "To express grief or deep regret.",
+    "example": "They lamented the loss of the old theater."
+  },
+  {
+    "id": "w1038",
+    "word": "myopic",
+    "pos": "adjective",
+    "bengali": "অদূরদর্শী; সংকীর্ণদৃষ্টি",
+    "definition": "Lacking foresight or long-term vision.",
+    "example": "The myopic policy ignored future costs."
+  },
+  {
+    "id": "w1039",
+    "word": "nonchalant",
+    "pos": "adjective",
+    "bengali": "নির্বিকার; উদাসীন",
+    "definition": "Casually calm and unconcerned.",
+    "example": "He gave a nonchalant shrug at the bad news."
+  },
+  {
+    "id": "w1040",
+    "word": "partial",
+    "pos": "adjective",
+    "bengali": "পক্ষপাতদুষ্ট; অনুরাগী",
+    "definition": "Biased, or having a strong liking for something.",
+    "example": "A good referee must not be partial to either side."
+  },
+  {
+    "id": "w1041",
+    "word": "pensive",
+    "pos": "adjective",
+    "bengali": "চিন্তামগ্ন; বিষণ্ন-ভাবুক",
+    "definition": "Deeply or wistfully thoughtful.",
+    "example": "She grew pensive as the train pulled away."
+  },
+  {
+    "id": "w1042",
+    "word": "portend",
+    "pos": "verb",
+    "bengali": "পূর্বাভাস দেওয়া; অশুভ ইঙ্গিত করা",
+    "definition": "To be a sign or warning of a future event.",
+    "example": "The falling barometer portended a storm."
+  },
+  {
+    "id": "w1043",
+    "word": "provincial",
+    "pos": "adjective",
+    "bengali": "সংকীর্ণমনা; গ্রাম্য দৃষ্টিভঙ্গির",
+    "definition": "Narrow-minded and unsophisticated in outlook.",
+    "example": "His provincial tastes rarely ventured beyond the familiar."
+  },
+  {
+    "id": "w1044",
+    "word": "rudimentary",
+    "pos": "adjective",
+    "bengali": "প্রাথমিক; অপরিণত",
+    "definition": "Basic and undeveloped; elementary.",
+    "example": "He had only a rudimentary grasp of the language."
+  },
+  {
+    "id": "w1045",
+    "word": "salutary",
+    "pos": "adjective",
+    "bengali": "হিতকর; উপকারী (শিক্ষা)",
+    "definition": "Producing a beneficial effect, often through warning.",
+    "example": "The failure was a salutary lesson in humility."
+  },
+  {
+    "id": "w1046",
+    "word": "sever",
+    "pos": "verb",
+    "bengali": "বিচ্ছিন্ন করা; কেটে আলাদা করা",
+    "definition": "To divide or cut off completely.",
+    "example": "The company severed all ties with the supplier."
+  },
+  {
+    "id": "w1047",
+    "word": "slight",
+    "pos": "verb",
+    "bengali": "অবজ্ঞা করা; উপেক্ষা করে অপমান করা",
+    "definition": "To insult by treating with disrespect or indifference.",
+    "example": "She felt slighted at not being invited."
+  },
+  {
+    "id": "w1048",
+    "word": "somnolent",
+    "pos": "adjective",
+    "bengali": "তন্দ্রাচ্ছন্ন; নিদ্রাকর",
+    "definition": "Sleepy, or tending to cause sleep.",
+    "example": "The warm room had a somnolent effect on everyone."
+  },
+  {
+    "id": "w1049",
+    "word": "stoic",
+    "pos": "adjective",
+    "bengali": "নির্বিকার সহনশীল; সংযমী",
+    "definition": "Enduring hardship without showing feelings or complaint.",
+    "example": "He remained stoic throughout the painful treatment."
+  },
+  {
+    "id": "w1050",
+    "word": "supersede",
+    "pos": "verb",
+    "bengali": "স্থলাভিষিক্ত করা; বাতিল করে প্রতিস্থাপন করা",
+    "definition": "To take the place of something older or less valid.",
+    "example": "The new rules supersede all previous ones."
+  },
+  {
+    "id": "w1051",
+    "word": "tout",
+    "pos": "verb",
+    "bengali": "জোরালোভাবে প্রচার করা; বড়াই করা",
+    "definition": "To promote or praise energetically.",
+    "example": "The ad touted the drug as a miracle cure."
+  },
+  {
+    "id": "w1052",
+    "word": "wane",
+    "pos": "verb",
+    "bengali": "ক্ষীণ হওয়া; হ্রাস পাওয়া",
+    "definition": "To decrease gradually in size, strength, or intensity.",
+    "example": "His enthusiasm began to wane after a few weeks."
+  },
+  {
+    "id": "w1053",
+    "word": "abreast",
+    "pos": "adverb",
+    "bengali": "সমানতালে; অবগত থেকে",
+    "definition": "Up to date with, or side by side.",
+    "example": "She reads widely to keep abreast of the field."
+  },
+  {
+    "id": "w1054",
+    "word": "confound",
+    "pos": "verb",
+    "bengali": "হতবুদ্ধি করা; বিভ্রান্ত করা",
+    "definition": "To confuse, or to prove wrong unexpectedly.",
+    "example": "The results confounded the experts' predictions."
+  },
+  {
+    "id": "w1055",
+    "word": "digression",
+    "pos": "noun",
+    "bengali": "মূল প্রসঙ্গ থেকে বিচ্যুতি; অবান্তর প্রসঙ্গ",
+    "definition": "A temporary departure from the main subject.",
+    "example": "After a long digression, he returned to the point."
+  },
+  {
+    "id": "w1056",
+    "word": "discrepancy",
+    "pos": "noun",
+    "bengali": "অসঙ্গতি; গরমিল",
+    "definition": "A difference or inconsistency between things.",
+    "example": "There was a discrepancy between the two accounts."
+  },
+  {
+    "id": "w1057",
+    "word": "duplicitous",
+    "pos": "adjective",
+    "bengali": "দ্বিচারী; প্রতারক",
+    "definition": "Deceitful; acting in bad faith.",
+    "example": "His duplicitous dealings finally caught up with him."
+  },
+  {
+    "id": "w1058",
+    "word": "expedient",
+    "pos": "adjective",
+    "bengali": "সুবিধাজনক; তাৎক্ষণিক লাভজনক",
+    "definition": "Convenient and practical, though possibly improper.",
+    "example": "It was expedient to settle rather than fight in court."
+  },
+  {
+    "id": "w1059",
+    "word": "fabricate",
+    "pos": "verb",
+    "bengali": "বানানো; মিথ্যা তৈরি করা",
+    "definition": "To invent in order to deceive, or to construct.",
+    "example": "He fabricated an excuse for his absence."
+  },
+  {
+    "id": "w1060",
+    "word": "glum",
+    "pos": "adjective",
+    "bengali": "বিষণ্ন; মনমরা",
+    "definition": "Looking or feeling dejected and gloomy.",
+    "example": "She looked glum after losing the match."
+  },
+  {
+    "id": "w1061",
+    "word": "harbinger",
+    "pos": "noun",
+    "bengali": "অগ্রদূত; পূর্বসূচক",
+    "definition": "A sign of something to come.",
+    "example": "The first frost is a harbinger of winter."
+  },
+  {
+    "id": "w1062",
+    "word": "intrinsic",
+    "pos": "adjective",
+    "bengali": "অন্তর্নিহিত; স্বভাবগত",
+    "definition": "Belonging naturally; essential to the nature of a thing.",
+    "example": "The work has intrinsic value beyond its price."
+  },
+  {
+    "id": "w1063",
+    "word": "largesse",
+    "pos": "noun",
+    "bengali": "দানশীলতা; উদারতা",
+    "definition": "Generosity in giving, especially money or gifts.",
+    "example": "The town benefited from the tycoon's largesse."
+  },
+  {
+    "id": "w1064",
+    "word": "libertine",
+    "pos": "noun",
+    "bengali": "লম্পট; নীতিহীন ভোগী",
+    "definition": "A person who lives without moral restraint.",
+    "example": "He was a notorious libertine in his youth."
+  },
+  {
+    "id": "w1065",
+    "word": "malfeasance",
+    "pos": "noun",
+    "bengali": "পদের অপব্যবহার; দুষ্কর্ম",
+    "definition": "Wrongdoing, especially by a public official.",
+    "example": "The mayor was charged with malfeasance in office."
+  },
+  {
+    "id": "w1066",
+    "word": "manifest",
+    "pos": "adjective",
+    "bengali": "সুস্পষ্ট; প্রকট",
+    "definition": "Clear and obvious to the eye or mind.",
+    "example": "His relief was manifest in his broad smile."
+  },
+  {
+    "id": "w1067",
+    "word": "minute",
+    "pos": "adjective",
+    "bengali": "অতি ক্ষুদ্র; সূক্ষ্মাতিসূক্ষ্ম",
+    "definition": "Extremely small, or precise in detail.",
+    "example": "She examined the document in minute detail."
+  },
+  {
+    "id": "w1068",
+    "word": "modish",
+    "pos": "adjective",
+    "bengali": "হালফ্যাশনের; চলতি কেতার",
+    "definition": "Conforming to the latest fashion; stylish.",
+    "example": "She wore a modish coat straight off the runway."
+  },
+  {
+    "id": "w1069",
+    "word": "nascent",
+    "pos": "adjective",
+    "bengali": "সদ্যোজাত; উদীয়মান",
+    "definition": "Just coming into existence and beginning to develop.",
+    "example": "The nascent industry showed great promise."
+  },
+  {
+    "id": "w1070",
+    "word": "perennial",
+    "pos": "adjective",
+    "bengali": "চিরস্থায়ী; বারবার ঘটে এমন",
+    "definition": "Lasting or recurring continually.",
+    "example": "Traffic is a perennial problem in the city."
+  },
+  {
+    "id": "w1071",
+    "word": "pious",
+    "pos": "adjective",
+    "bengali": "ধর্মনিষ্ঠ; ভক্তিপরায়ণ",
+    "definition": "Devoutly religious, or making a show of virtue.",
+    "example": "She led a quiet, pious life."
+  },
+  {
+    "id": "w1072",
+    "word": "providential",
+    "pos": "adjective",
+    "bengali": "দৈবানুকূল; সৌভাগ্যজনক",
+    "definition": "Occurring at a favorable time as if by divine care.",
+    "example": "Their arrival was providential, just as the storm hit."
+  },
+  {
+    "id": "w1073",
+    "word": "prowess",
+    "pos": "noun",
+    "bengali": "দক্ষতা; পারদর্শিতা",
+    "definition": "Outstanding skill or ability.",
+    "example": "His athletic prowess won him many medals."
+  },
+  {
+    "id": "w1074",
+    "word": "schism",
+    "pos": "noun",
+    "bengali": "বিভেদ; বিভাজন",
+    "definition": "A division into opposing factions, especially in a group.",
+    "example": "A bitter schism split the party in two."
+  },
+  {
+    "id": "w1075",
+    "word": "slander",
+    "pos": "noun",
+    "bengali": "মৌখিক মানহানি; কুৎসা",
+    "definition": "A false spoken statement that damages a reputation.",
+    "example": "He sued the broadcaster for slander."
+  },
+  {
+    "id": "w1076",
+    "word": "stalwart",
+    "pos": "adjective",
+    "bengali": "দৃঢ়চেতা; বিশ্বস্ত",
+    "definition": "Loyal, reliable, and hardworking.",
+    "example": "She was a stalwart supporter of the charity."
+  },
+  {
+    "id": "w1077",
+    "word": "supplicate",
+    "pos": "verb",
+    "bengali": "কাতর প্রার্থনা করা; অনুনয় করা",
+    "definition": "To ask or beg humbly and earnestly.",
+    "example": "They supplicated the king for mercy."
+  },
+  {
+    "id": "w1078",
+    "word": "terse",
+    "pos": "adjective",
+    "bengali": "সংক্ষিপ্ত ও রূঢ়; স্বল্পভাষী",
+    "definition": "Brief and to the point, sometimes curtly so.",
+    "example": "His terse reply ended the discussion."
+  },
+  {
+    "id": "w1079",
+    "word": "tirade",
+    "pos": "noun",
+    "bengali": "দীর্ঘ ক্রুদ্ধ বক্তৃতা; গালিগালাজ",
+    "definition": "A long, angry speech of criticism or accusation.",
+    "example": "He launched into a tirade against the referee."
+  },
+  {
+    "id": "w1080",
+    "word": "universal",
+    "pos": "adjective",
+    "bengali": "সর্বজনীন; বিশ্বজনীন",
+    "definition": "Applying to or affecting all cases or people.",
+    "example": "The film has universal appeal."
+  },
+  {
+    "id": "w1081",
+    "word": "vanquish",
+    "pos": "verb",
+    "bengali": "পরাজিত করা; দমন করা",
+    "definition": "To defeat thoroughly in battle or competition.",
+    "example": "The hero vanquished his enemies."
+  },
+  {
+    "id": "w1082",
+    "word": "woeful",
+    "pos": "adjective",
+    "bengali": "শোচনীয়; দুঃখজনক",
+    "definition": "Very sad, or deplorably bad in quality.",
+    "example": "The team gave a woeful performance."
+  },
+  {
+    "id": "w1083",
+    "word": "aberrant",
+    "pos": "adjective",
+    "bengali": "অস্বাভাবিক; বিচ্যুত",
+    "definition": "Departing from the normal or expected.",
+    "example": "The test flagged a few aberrant readings."
+  },
+  {
+    "id": "w1084",
+    "word": "abide",
+    "pos": "verb",
+    "bengali": "মেনে চলা; সহ্য করা",
+    "definition": "To accept or act in accordance with, or to tolerate.",
+    "example": "You must abide by the rules of the club."
+  },
+  {
+    "id": "w1085",
+    "word": "bravado",
+    "pos": "noun",
+    "bengali": "মেকি সাহস; দম্ভপূর্ণ প্রদর্শন",
+    "definition": "A bold show of courage, often to hide fear.",
+    "example": "His swagger was pure bravado."
+  },
+  {
+    "id": "w1086",
+    "word": "callow",
+    "pos": "adjective",
+    "bengali": "অপরিণত; অনভিজ্ঞ",
+    "definition": "Inexperienced and immature.",
+    "example": "He was a callow youth fresh out of school."
+  },
+  {
+    "id": "w1087",
+    "word": "capitulate",
+    "pos": "verb",
+    "bengali": "আত্মসমর্পণ করা; নতিস্বীকার করা",
+    "definition": "To surrender or give in to demands.",
+    "example": "After a long siege, the city capitulated."
+  },
+  {
+    "id": "w1088",
+    "word": "cogitate",
+    "pos": "verb",
+    "bengali": "গভীরভাবে চিন্তা করা; মনন করা",
+    "definition": "To think deeply and carefully about something.",
+    "example": "He cogitated for days over the proposal."
+  },
+  {
+    "id": "w1089",
+    "word": "deportment",
+    "pos": "noun",
+    "bengali": "আচরণ; চালচলন",
+    "definition": "The way a person behaves, stands, and carries themselves.",
+    "example": "The school stressed good manners and deportment."
+  },
+  {
+    "id": "w1090",
+    "word": "extemporize",
+    "pos": "verb",
+    "bengali": "বিনা প্রস্তুতিতে বলা; তাৎক্ষণিক রচনা করা",
+    "definition": "To improvise, especially a speech or performance.",
+    "example": "When he lost his notes, he had to extemporize."
+  },
+  {
+    "id": "w1091",
+    "word": "factious",
+    "pos": "adjective",
+    "bengali": "দলাদলিপ্রবণ; কোন্দলপূর্ণ",
+    "definition": "Marked by internal conflict and division into factions.",
+    "example": "The factious committee could agree on nothing."
+  },
+  {
+    "id": "w1092",
+    "word": "fallow",
+    "pos": "adjective",
+    "bengali": "পতিত; অকর্ষিত",
+    "definition": "Left unplanted or inactive to restore fertility.",
+    "example": "The field lay fallow for a season."
+  },
+  {
+    "id": "w1093",
+    "word": "feint",
+    "pos": "noun",
+    "bengali": "ছলনামূলক আক্রমণ; প্রতারণামূলক চাল",
+    "definition": "A deceptive movement meant to mislead an opponent.",
+    "example": "The boxer threw a feint to the left."
+  },
+  {
+    "id": "w1094",
+    "word": "flagrant",
+    "pos": "adjective",
+    "bengali": "প্রকট; জঘন্যভাবে স্পষ্ট",
+    "definition": "Conspicuously and openly offensive or bad.",
+    "example": "It was a flagrant violation of the rules."
+  },
+  {
+    "id": "w1095",
+    "word": "gratuitous",
+    "pos": "adjective",
+    "bengali": "অকারণ; অযাচিত",
+    "definition": "Uncalled for; done without good reason.",
+    "example": "The film was criticized for its gratuitous violence."
+  },
+  {
+    "id": "w1096",
+    "word": "grovel",
+    "pos": "verb",
+    "bengali": "হীনভাবে তোষামোদ করা; পায়ে পড়া",
+    "definition": "To behave in an abjectly submissive way.",
+    "example": "He groveled for forgiveness after the mistake."
+  },
+  {
+    "id": "w1097",
+    "word": "indecorous",
+    "pos": "adjective",
+    "bengali": "অশোভন; শিষ্টাচারবিরোধী",
+    "definition": "Not in keeping with good taste or propriety.",
+    "example": "Laughing at the funeral was decidedly indecorous."
+  },
+  {
+    "id": "w1098",
+    "word": "intrigue",
+    "pos": "noun",
+    "bengali": "ষড়যন্ত্র; গুপ্ত চক্রান্ত",
+    "definition": "Secret plotting or scheming.",
+    "example": "The palace was full of intrigue and rivalry."
+  },
+  {
+    "id": "w1099",
+    "word": "nominal",
+    "pos": "adjective",
+    "bengali": "নামমাত্র; সামান্য",
+    "definition": "In name only, or very small in amount.",
+    "example": "He is the nominal head, but others run things."
+  },
+  {
+    "id": "w1100",
+    "word": "obdurate",
+    "pos": "adjective",
+    "bengali": "অনমনীয়; একগুঁয়ে",
+    "definition": "Stubbornly refusing to change one's mind.",
+    "example": "He remained obdurate despite every appeal."
+  },
+  {
+    "id": "w1101",
+    "word": "obstreperous",
+    "pos": "adjective",
+    "bengali": "হট্টগোলকারী; বেয়াড়া",
+    "definition": "Noisy and difficult to control.",
+    "example": "The obstreperous crowd ignored the stewards."
+  },
+  {
+    "id": "w1102",
+    "word": "odious",
+    "pos": "adjective",
+    "bengali": "ঘৃণ্য; বিরক্তিকর",
+    "definition": "Extremely unpleasant; repulsive.",
+    "example": "Comparing the two is an odious task."
+  },
+  {
+    "id": "w1103",
+    "word": "plucky",
+    "pos": "adjective",
+    "bengali": "সাহসী; দৃঢ়চেতা",
+    "definition": "Showing determined courage in the face of difficulty.",
+    "example": "The plucky underdog fought to the final whistle."
+  },
+  {
+    "id": "w1104",
+    "word": "precocious",
+    "pos": "adjective",
+    "bengali": "অকালপক্ব; অকালবিকশিত",
+    "definition": "Having developed abilities earlier than usual.",
+    "example": "The precocious child read novels at age five."
+  },
+  {
+    "id": "w1105",
+    "word": "remuneration",
+    "pos": "noun",
+    "bengali": "পারিশ্রমিক; বেতন",
+    "definition": "Payment for work or services.",
+    "example": "The role offers generous remuneration."
+  },
+  {
+    "id": "w1106",
+    "word": "slovenly",
+    "pos": "adjective",
+    "bengali": "অপরিচ্ছন্ন; এলোমেলো",
+    "definition": "Untidy and careless in appearance or work.",
+    "example": "His slovenly handwriting was hard to read."
+  },
+  {
+    "id": "w1107",
+    "word": "soliloquy",
+    "pos": "noun",
+    "bengali": "স্বগতোক্তি; একক ভাষণ",
+    "definition": "A speech in which a character speaks their thoughts aloud alone.",
+    "example": "Hamlet's soliloquy is the most famous in English."
+  },
+  {
+    "id": "w1108",
+    "word": "spurn",
+    "pos": "verb",
+    "bengali": "প্রত্যাখ্যান করা; ঘৃণাভরে ফিরিয়ে দেওয়া",
+    "definition": "To reject with contempt.",
+    "example": "She spurned his offer of help."
+  },
+  {
+    "id": "w1109",
+    "word": "stolid",
+    "pos": "adjective",
+    "bengali": "নির্বিকার; ভাবলেশহীন",
+    "definition": "Showing little emotion; impassive.",
+    "example": "He listened with a stolid, unreadable face."
+  },
+  {
+    "id": "w1110",
+    "word": "temerity",
+    "pos": "noun",
+    "bengali": "দুঃসাহস; ধৃষ্টতা",
+    "definition": "Excessive boldness or audacity.",
+    "example": "He had the temerity to question the judge."
+  },
+  {
+    "id": "w1111",
+    "word": "tenuous",
+    "pos": "adjective",
+    "bengali": "ক্ষীণ; দুর্বল (যুক্তি/সংযোগ)",
+    "definition": "Very weak, slight, or insubstantial.",
+    "example": "The evidence for the theory is tenuous."
+  },
+  {
+    "id": "w1112",
+    "word": "verve",
+    "pos": "noun",
+    "bengali": "উদ্দীপনা; প্রাণশক্তি",
+    "definition": "Vigor and spirit, especially in artistic performance.",
+    "example": "She played the piece with great verve."
+  }
 ];
